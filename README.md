@@ -51,3 +51,7 @@ Or
 Press 'c' to capture the image and in the command prompt it will ask for the name of the face. Put the name of the image.
 
 To quite the application press 'q'.
+
+## Reference
+
+[Face Recognition in Python](https://github.com/ageitgey/face_recognition/blob/master/README.md)
