@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""FaceRecognition.py: A Command line tool for Face Detection and Recognition with Own Data Set."""
+
+__author__ = "Anupam Bera"
+__email__  = "anupam.bera@gmail.com"
+
 import face_recognition
 import cv2
 import numpy as np
@@ -152,7 +159,7 @@ while True:
         left *= 4
 
         # Draw a box around the face
-        #cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 255), 1)
+        cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 255), 2)
 
         # Draw a label with a name below the face
         cv2.rectangle(frame, (left, bottom + 46), (right, bottom+11), (0, 0, 155), cv2.FILLED)
